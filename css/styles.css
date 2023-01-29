@@ -1,3 +1,6 @@
+:root {
+}
+
 body {
   font-family: "roboto", sans-serif;
   color: #2e2f42; /* navi blue */
@@ -30,6 +33,7 @@ a {
 .address {
 }
 .address-item {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -38,7 +42,7 @@ a {
 }
 
 .address-item:is(:hover, :focus) {
-  color: blueviolet;
+  color: #404bbf;
 }
 /* -----LOGO------ */
 
@@ -78,7 +82,7 @@ a {
   cursor: pointer;
 }
 .hero-btn:is(:hover, :focus) {
-  color: blueviolet;
+  background-color: #404bbf;
 }
 
 .features {
