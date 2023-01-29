@@ -1,9 +1,14 @@
 :root {
+  --main-clr: #ffffff; /*WHITE*/
+  --text-clr: #434455; /*SLATE*/
+  --sec-clr: #2e2f42; /*NAVI*/
+  --third-clr: #f4f4fd; /*CLOUD*/
+  --logo-main-clr: #4d5ae5; /*IRIS*/
+  --footer-txt-clr: #e7e9fc; /*CORN*/
 }
 
 body {
   font-family: "roboto", sans-serif;
-  color: #2e2f42; /* navi blue */
 }
 
 ul {
@@ -23,11 +28,8 @@ a {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
-  color: #2e2f42;
 }
 .header-navigation-item:is(:hover, :focus) {
-  color: #404bbf;
 }
 /* -----contacts------ */
 .address {
@@ -38,11 +40,9 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .address-item:is(:hover, :focus) {
-  color: #404bbf;
 }
 /* -----LOGO------ */
 
@@ -52,12 +52,11 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
+  text-transform: uppercase;
 }
 .logo-color-main {
-  color: #4d5ae5;
 }
 .logo-color-secondary {
-  color: #2e2f42;
 }
 /* =============HERO================ */
 .hero {
@@ -68,21 +67,18 @@ a {
   font-size: 56px;
   line-height: calc(60 / 56);
   letter-spacing: 0.02em;
-  color: #ffffff;
 }
 .hero-btn {
-  background-color: #4d5ae5;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
-  color: #ffffff;
+
   cursor: pointer;
 }
 .hero-btn:is(:hover, :focus) {
-  background-color: #404bbf;
 }
 
 .features {
@@ -99,7 +95,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* =============What we are doing================ */
 .company-descr {
@@ -116,7 +111,6 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42; /* NAVY BLUE */
 }
 .our-team-list {
 }
@@ -131,7 +125,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* SLATE */
 }
 /* =============footer================ */
 .footer {
@@ -141,8 +134,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* CORNFLOWER */
-  color: rgba(231, 233, 252, 1);
 }
 /* ==========GALLERY================ */
 .gallery {
@@ -152,13 +143,11 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42; /* NAVY BLUE */
 }
 .gallery-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* SLATE */
 }
 /* ==========BUTTONS================ */
 .button {
@@ -168,10 +157,8 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff; /* IRIS */
-  background-color: #4d5ae5;
+
   cursor: pointer;
 }
 .buttons-item:is(:hover, :focus) {
-  background-color: #404bbf;
 }
