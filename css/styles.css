@@ -112,6 +112,7 @@ a {
 .company-descr {
 }
 .company-descr-header {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -122,6 +123,7 @@ a {
   background-color: var(--third-clr);
 }
 .our-team-header {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -146,6 +148,7 @@ a {
 }
 /* =============footer================ */
 .footer {
+  background-color: var(--sec-clr);
 }
 .footer-text {
   font-size: 16px;
